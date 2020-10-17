@@ -1,8 +1,20 @@
+# importing necessary modules
 import numpy as np
+from sklearn.linear_model import LinearRegression
+
+# helper variable
 x = np.array([2,5,9,3])
+# changing from 1D to 2D
 x = x.reshape(-1, 1)
+
+# target variable
 y = np.array([20, 50, 90, 30])
-from sklearn.linear_model import LinearRegre
-mind = Lineaegression()
+
+# empty model creation
+mind = LinearRegression()
+
+# model training
 mind.fit(x,y)
+
+# prediction by model
 mind.predict([[6]])
