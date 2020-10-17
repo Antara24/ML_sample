@@ -1,0 +1,8 @@
+import numpy as np
+x = np.array([2,5,9,3])
+x = x.reshape(-1, 1)
+y = np.array([20, 50, 90, 30])
+from sklearn.linear_model import LinearRegre
+mind = Lineaegression()
+mind.fit(x,y)
+mind.predict([[6]])
